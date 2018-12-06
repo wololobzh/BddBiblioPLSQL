@@ -117,6 +117,10 @@ insert into ouvrages (isbn, titre, auteur, genre, editeur)
 values (2253006327, ' Vingt mille lieues sous les mers ', 'Jules Verne', 'ROM', 'LGF');
 insert into ouvrages (isbn, titre, auteur, genre, editeur) 
 values (2038704015, 'De la terre à la lune', 'Jules Verne', 'ROM', 'Larousse');
+insert into ouvrages (isbn, titre, auteur, genre, editeur) 
+values (2409015867, 'Kotlin', 'Anthony Cosson', 'INF', 'ENI');
+insert into ouvrages (isbn, titre, auteur, genre, editeur) 
+values (2409008153, 'JEE', 'Thierry Richard', 'INF', 'ENI');
 /
 insert into exemplaires(isbn, numero, etat) select isbn, 1,'BO' from ouvrages;
 insert into exemplaires(isbn, numero, etat) select isbn, 2,'MO' from ouvrages;
@@ -272,3 +276,4 @@ INSERT INTO details VALUES(1014,2,2203314168,4,sysdate-710);
 INSERT INTO details VALUES(1014,3,2266085816,4,sysdate-710);
 INSERT INTO details VALUES(1014,4,2080720872,4,sysdate-710);
 /
+
